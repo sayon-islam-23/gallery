@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align:center ;
+    background: rgba(0, 0, 0, 0.3)url('5772.jpg');
+}
+h1{
+    font-family: cursive;
+    margin-top:10px ;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:15px ;
+    font-size: 25px;
+    background: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    text-align:center ;
+    background: rgba(0, 0, 0, 0.3)url('5772.jpg');
+}
+.thumbnail{
+    border-radius: 9px;
+    border:3px solid black ;
+}
+
+@media only screen and (max-width: 1140px){
+    h1{
+        margin: auto;
+    }
+    .thumbnail{
+        width:90%;
+        height:100%;
+    }
+}
